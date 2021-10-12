@@ -36,7 +36,8 @@ void delete()
 
 Queue* create()
 {
-     Queue* queue = calloc(1, sizeof(Queue);
+     Queue* queue = calloc(1, sizeof(Queue));
+     return queue;
 }
 
 int main()
